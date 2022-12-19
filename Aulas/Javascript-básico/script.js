@@ -72,3 +72,25 @@ console.log(a > b)
 // || ou 
 // ! Negativo 
 
+            // Strings
+        
+// Transformando uma string em um número.
+
+var a = "4.5";
+var b = "6"
+
+var c = parseInt(b) + parseFloat(a)
+
+console.log(c)
+
+            // Alert e prompt .
+  //  var nome = prompt("Escreva o seu nome ")
+
+  //  alert("O seu nome é " + nome)
+
+   var numero = parseInt(prompt("Escreva um número"))
+
+   var dobro = numero * 2
+
+   alert("O dobro de " + numero + " é " + dobro)
+
