@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.topo {
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 10px;
+}
+
+div.bolo {
+    width: 100vw;
+    height: 150px;
+    background-image: url(../images/hero_bolo.jpg);
+   background-position: center;
+    background-size: cover;
+    height: 400px;
+}
