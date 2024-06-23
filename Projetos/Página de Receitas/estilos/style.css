@@ -51,6 +51,7 @@ h2 {
     margin-bottom: 40px;
 }
 a{
+    color: white;
     text-decoration: none;
 }
 .botao-comprar{
@@ -80,10 +81,33 @@ a{
     cursor: url(../images/cursor_preparo.png), default;
 }
 
+.instrucoes {
+    cursor: url(../images/cursor_intrucoes.png), default;
+}
+
 li {
     margin-bottom: 14px;
 }
 
 .lista-ingredientes {
     margin-bottom: 50px;
+}
+
+p, li{
+    line-height: 28px;
+}
+
+.rodape {
+    padding: 15px;
+    color: white;
+    background-color: #ff6b28;
+    margin: auto;
+    text-align: center;
+}
+
+.rodape-texto {
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
 }
