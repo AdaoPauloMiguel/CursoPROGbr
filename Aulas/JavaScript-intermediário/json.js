@@ -16,3 +16,6 @@ console.log(a1)
 
 let b1 = JSON.parse(a1)
 console.log(b1)
+
+
+//Nota: Converter uma string em um objeto nativo é chamado de análise, enquanto a conversão de um objeto nativo em uma string(JSON.parse) para que possa ser transmitida pela rede é chamada de stringification (JSON.stringify).
