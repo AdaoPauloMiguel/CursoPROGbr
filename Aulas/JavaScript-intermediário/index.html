@@ -8,14 +8,24 @@
 </head>
 <body>
 
-    <h1 id="txt" onclick="h1click()">Título</h1>
-    <!-- <p class="paragrafos" id="par1">Parágrafo 1</p>
-    <p class="paragrafos" id="par2">Parágrafo 2</p>
-    <p class="paragrafo" id="par3">Parágrafo 3</p> -->
+   <h1 id="t1"> Titulo 1</h1>
+   <h2 id="t2">Segundo titulo</h2>
 
-    <div id="res">Escreva algo...</div>
 
-    <script src="enventos.js"></script>
+   <script>
+       let t2 = document.getElementById("t2");
+       let t1 = document.getElementById("t1");
+
+        t1.onclick = colocarEmMaiusculo;
+        t2.onclick = colocarEmMaiusculo;
+
+        function colocarEmMaiusculo() {
+        this.innerHTML = this.innerHTML.toUpperCase();
+        }
+
+   </script>
+
+   
     
 </body>
 </html>
